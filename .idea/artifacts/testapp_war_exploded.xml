@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testapp:war exploded">
+    <output-path>$PROJECT_DIR$/build/artifacts/testapp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testapp" />
+          <element id="module-output" name="webcontainer" />
+          <element id="module-output" name="app" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/echo3-app-3.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jfreechart-1.0.12.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/echo3-webcontainer-3.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/lib/jcommon-1.0.15.jar" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="testapp/web/testapp-webapp" />
+    </root>
+  </artifact>
+</component>
